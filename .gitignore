@@ -1,0 +1,41 @@
+## 🧱 **.gitignore**
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+venv310/
+.env/
+.env.*
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary and output data
+tmp/
+tmp_one/
+output/
+logs/
+*.log
+*.csv
+
+# Model weights / large files
+models/
+weights/
+*.pth
+*.onnx
+*.bin
+
+# Others
+test_output/
